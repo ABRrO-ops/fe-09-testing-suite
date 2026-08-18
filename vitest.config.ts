@@ -7,6 +7,6 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/tests/setup.ts',
-    exclude: ['**/node_modules/**', '**/e2e/**'], // Exclut Playwright du scan de Vitest !
+    exclude: ['**/node_modules/**', '**/e2e/**'],
   },
 });
